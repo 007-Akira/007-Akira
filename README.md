@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0f172a,100:0ea5e9&text=Adithya%20Kiran&fontSize=54&fontColor=f8fafc&fontAlignY=36&desc=Computer%20Science%20%26%20Engineering%20Student%20%7C%20AI%20%2B%20Full%20Stack&descSize=17&descAlignY=56&animation=fadeIn" alt="Adithya Kiran banner" />
+<img src="./assets/profile-banner.svg" alt="Adithya Kiran banner" />
 
 <br />
 
