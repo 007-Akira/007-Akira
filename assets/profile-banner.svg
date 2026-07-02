@@ -1,41 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Adithya Kiran</title>
-  <desc id="desc">Computer Science and Engineering Student focused on AI and Full Stack Development</desc>
+  <desc id="desc">Premium black and gold banner for Adithya Kiran</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#020617" />
-      <stop offset="48%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#0ea5e9" />
+      <stop offset="0%" stop-color="#030303" />
+      <stop offset="52%" stop-color="#111111" />
+      <stop offset="100%" stop-color="#241a05" />
     </linearGradient>
-    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.92" />
-      <stop offset="55%" stop-color="#38bdf8" stop-opacity="0.62" />
-      <stop offset="100%" stop-color="#020617" stop-opacity="0.85" />
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a6f22" />
+      <stop offset="28%" stop-color="#f5d36b" />
+      <stop offset="58%" stop-color="#c89b2c" />
+      <stop offset="100%" stop-color="#fff1a8" />
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <linearGradient id="softGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff1a8" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#c89b2c" stop-opacity="0.05" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.55" />
     </filter>
   </defs>
 
   <rect width="1200" height="320" fill="url(#bg)" />
-  <circle cx="1010" cy="56" r="150" fill="#38bdf8" opacity="0.13" />
-  <circle cx="170" cy="250" r="170" fill="#0ea5e9" opacity="0.11" />
+  <rect x="34" y="34" width="1132" height="252" rx="22" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.82" />
+  <rect x="52" y="52" width="1096" height="216" rx="16" fill="none" stroke="#f5d36b" stroke-width="1" opacity="0.18" />
 
-  <g opacity="0.18">
-    <path d="M88 92H292" stroke="#e0f2fe" stroke-width="1" />
-    <path d="M908 96H1112" stroke="#e0f2fe" stroke-width="1" />
-    <path d="M120 226H352" stroke="#e0f2fe" stroke-width="1" />
-    <path d="M842 230H1080" stroke="#e0f2fe" stroke-width="1" />
-  </g>
+  <circle cx="1038" cy="62" r="132" fill="url(#softGold)" />
+  <circle cx="158" cy="262" r="156" fill="url(#softGold)" opacity="0.72" />
 
-  <text x="600" y="132" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800" fill="#f8fafc" filter="url(#glow)">Adithya Kiran</text>
-  <text x="600" y="178" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="600" fill="#bae6fd">Computer Science &amp; Engineering Student | AI + Full Stack</text>
-  <text x="600" y="218" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="17" fill="#cbd5e1">Building reliable software, learning deeply, refining every commit.</text>
+  <path d="M132 104H386" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" opacity="0.68" />
+  <path d="M814 104H1068" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" opacity="0.68" />
+  <path d="M132 218H386" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" opacity="0.45" />
+  <path d="M814 218H1068" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" opacity="0.45" />
 
-  <path d="M0 252L40 244C80 236 160 220 240 222.7C320 225 400 247 480 252C560 257 640 247 720 234.7C800 223 880 209 960 215.3C1040 222 1120 248 1160 261.3L1200 274.7V320H0V252Z" fill="url(#wave)" />
-  <path d="M0 282L50 276C100 270 200 258 300 260.7C400 263 500 281 600 281.3C700 282 800 264 900 262.7C1000 261 1100 277 1150 285.3L1200 293.3V320H0V282Z" fill="#020617" opacity="0.72" />
+  <text x="600" y="142" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700" fill="url(#gold)" filter="url(#shadow)">Adithya Kiran</text>
+  <text x="600" y="188" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="2" fill="#f8e7a2">AI + FULL STACK</text>
+  <text x="600" y="226" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" fill="#d7c990">Computer Science &amp; Engineering Student</text>
 </svg>
