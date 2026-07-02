@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" alt="Adithya Kiran banner" />
+<img src="./assets/premium-gold-banner.svg" alt="Adithya Kiran banner" />
 
 <br />
 
