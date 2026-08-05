@@ -14,7 +14,7 @@ Building intelligent systems, learning continuously, and exploring open source.
   <img src="./assets/section-divider.svg" width="100%" alt="">
 </p>
 
-## `01 // ABOUT.sh`
+<p align="center"><img src="./assets/sections/about.svg" width="100%" alt="About section — terminal module 01"></p>
 
 I’m **Akira**, a Computer Science & Engineering student at **TKM College of Engineering**, graduating in **2028**. I like the point where AI research meets useful software: language systems, thoughtful interfaces, reliable APIs, and tools that solve real problems.
 
@@ -27,7 +27,7 @@ I’m **Akira**, a Computer Science & Engineering student at **TKM College of En
 └────────────────────────────────────────────────────────────────────┘
 ```
 
-## `02 // CURRENT_FOCUS.log`
+<p align="center"><img src="./assets/sections/current-focus.svg" width="100%" alt="Current focus section — terminal module 02"></p>
 
 <p align="center">
   <code>[ MACHINE LEARNING ]</code>&nbsp;
@@ -40,7 +40,7 @@ I’m **Akira**, a Computer Science & Engineering student at **TKM College of En
 
 I’m currently designing practical intelligent systems, strengthening my AI foundations, building responsive full-stack products, and learning in public through projects and experiments.
 
-## `03 // TECH_STACK.json`
+<p align="center"><img src="./assets/sections/tech-stack.svg" width="100%" alt="Technology stack section — terminal module 03"></p>
 
 <table>
   <tr>
@@ -75,7 +75,7 @@ I’m currently designing practical intelligent systems, strengthening my AI fou
   <img src="./assets/section-divider.svg" width="100%" alt="">
 </p>
 
-## `04 // PROJECTS/`
+<p align="center"><img src="./assets/sections/projects.svg" width="100%" alt="Featured projects section — terminal module 04"></p>
 
 <table>
   <tr>
@@ -111,14 +111,14 @@ I’m currently designing practical intelligent systems, strengthening my AI fou
   </tr>
 </table>
 
-## `05 // GITHUB_TELEMETRY.dat`
+<p align="center"><img src="./assets/sections/telemetry.svg" width="100%" alt="GitHub telemetry section — terminal module 05"></p>
 
 <p align="center">
   <img width="49%" src="./assets/github-telemetry.svg" alt="GitHub telemetry summary for Akira">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=007-Akira&hide_border=true&background=0D1515&ring=00DBE7&fire=B600F8&currStreakLabel=34FC0D&sideLabels=B9CACB&dates=849495&currStreakNum=E1FDFF&sideNums=E1FDFF" alt="Akira's GitHub contribution streak">
 </p>
 
-## `06 // CONTRIBUTION_SIGNAL.svg`
+<p align="center"><img src="./assets/sections/contributions.svg" width="100%" alt="Contribution signal section — terminal module 06"></p>
 
 <p align="center">
   <picture>
@@ -130,7 +130,7 @@ I’m currently designing practical intelligent systems, strengthening my AI fou
 
 <!-- The local contribution signal remains as a fallback if the generated output branch is temporarily unavailable. -->
 
-## `07 // CONNECT.sh`
+<p align="center"><img src="./assets/sections/connect.svg" width="100%" alt="Connect section — terminal module 07"></p>
 
 <p align="center">
   <a href="https://github.com/007-Akira"><img src="https://img.shields.io/badge/GitHub-007--Akira-0d1515?style=for-the-badge&logo=github&logoColor=00dbe7" alt="GitHub"></a>
