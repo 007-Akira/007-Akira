@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" role="img" aria-label="Terminal connection ready">
+  <defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#173638"/></pattern><style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.c{animation:b 1.1s steps(1) infinite}.w{animation:w 4s linear infinite}@keyframes b{50%{opacity:0}}@keyframes w{to{stroke-dashoffset:-40}}@media(prefers-reduced-motion:reduce){.c,.w{animation:none}}</style></defs>
+  <rect width="1200" height="150" rx="14" fill="#080f10"/><rect width="1200" height="150" rx="14" fill="url(#g)" opacity=".45"/><rect x="1" y="1" width="1198" height="148" rx="13" fill="none" stroke="#3a494b"/>
+  <circle cx="28" cy="24" r="5" fill="#34fc0d"/><text x="46" y="29" fill="#849495" font-size="13">terminal // secure channel</text><path d="M20 45h1160" stroke="#253638"/>
+  <text x="32" y="82" fill="#34fc0d" font-size="16">akira@tkm:~$</text><text x="180" y="82" fill="#e1fdff" font-size="16">keep_building --curiosity --consistency</text>
+  <path class="w" d="M700 78h22l8-12 12 24 12-24 10 12h48" fill="none" stroke="#00dbe7" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="32" y="116" fill="#00dbe7" font-size="14">connection ready</text><rect x="174" y="101" width="10" height="18" fill="#b600f8" class="c"/>
+</svg>

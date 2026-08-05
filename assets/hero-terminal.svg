@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Adithya Kiran — aka Akira</title>
+  <desc id="desc">Animated cyberpunk terminal banner for an AI developer and full-stack explorer.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#163638" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H1200" stroke="#fff" stroke-opacity=".025"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop stop-color="#00dbe7"/><stop offset=".52" stop-color="#b600f8"/><stop offset="1" stop-color="#34fc0d"/>
+    </linearGradient>
+    <style>
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+      .dash{animation:flow 8s linear infinite}.spin{transform-origin:930px 225px;animation:spin 18s linear infinite}.blink{animation:blink 1.15s steps(1,end) infinite}.pulse{animation:pulse 4s ease-in-out infinite}.slide{animation:slide 10s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-120}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:0}}@keyframes pulse{50%{opacity:.35}}@keyframes slide{0%{transform:translateX(-160px)}100%{transform:translateX(1300px)}}
+      @media(prefers-reduced-motion:reduce){.dash,.spin,.blink,.pulse,.slide{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1200" height="440" rx="18" fill="#080f10"/>
+  <rect width="1200" height="440" rx="18" fill="url(#grid)" opacity=".58"/>
+  <rect width="1200" height="440" rx="18" fill="url(#scan)"/>
+  <rect x="1.5" y="1.5" width="1197" height="437" rx="17" fill="none" stroke="url(#edge)" stroke-width="3"/>
+  <path class="slide" d="M0 91H140l18-18h98" fill="none" stroke="#00dbe7" stroke-opacity=".25" stroke-width="2"/>
+  <g opacity=".9"><circle cx="28" cy="25" r="6" fill="#ff5f57"/><circle cx="49" cy="25" r="6" fill="#febc2e"/><circle cx="70" cy="25" r="6" fill="#28c840"/></g>
+  <text x="98" y="31" fill="#849495" font-size="13" letter-spacing="2">AKIRA_OS // PROFILE.SYS</text>
+  <path d="M22 50H1178" stroke="#3a494b"/>
+  <g transform="translate(66 106)">
+    <text fill="#34fc0d" font-size="15">akira@tkm:~$ ./identity --resolve</text>
+    <text y="65" fill="#e1fdff" font-size="52" font-weight="800" letter-spacing="-2">ADITHYA KIRAN</text>
+    <text y="106" fill="#b600f8" font-size="24" font-weight="700">aka AKIRA</text>
+    <path d="M0 130H620" stroke="#00dbe7" stroke-width="2" stroke-dasharray="4 9" class="dash"/>
+    <text y="174" fill="#00dbe7" font-size="21">AI Developer &amp; Full-Stack Explorer</text>
+    <text y="211" fill="#b9cacb" font-size="17">CSE Student @ TKM  |  Class of 2028</text>
+    <text y="262" fill="#849495" font-size="14">[ systems online ]  [ curiosity: ∞ ]</text>
+    <rect x="466" y="246" width="11" height="20" rx="1" fill="#34fc0d" class="blink"/>
+  </g>
+  <g class="pulse" fill="none" stroke="#00dbe7" opacity=".22"><path d="M24 390H210l20-20h92"/><path d="M1176 68h-120l-18 18h-54"/></g>
+  <g class="spin" fill="none" filter="url(#glow)">
+    <circle cx="930" cy="225" r="126" stroke="#00dbe7" stroke-width="2" stroke-dasharray="3 14"/>
+    <circle cx="930" cy="225" r="105" stroke="#b600f8" stroke-width="2" stroke-dasharray="36 20"/>
+    <circle cx="930" cy="225" r="88" stroke="#34fc0d" stroke-opacity=".45" stroke-dasharray="2 12"/>
+  </g>
+  <g transform="translate(930 225)" text-anchor="middle">
+    <path d="M0-76L70 59H39L25 30h-52L-41 59h-31L0-76zm0 48-18 36h36z" fill="none" stroke="#00dbe7" stroke-width="7" stroke-linejoin="bevel" filter="url(#glow)"/>
+    <path d="M-34 65H34" stroke="#b600f8" stroke-width="5"/>
+    <text y="98" fill="#e1fdff" font-size="12" letter-spacing="5">AKIRA</text>
+  </g>
+  <text x="1170" y="417" text-anchor="end" fill="#3a777b" font-size="11">SIGNAL // STABLE</text>
+</svg>

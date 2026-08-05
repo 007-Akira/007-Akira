@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 34">
+  <style>.d{animation:d 7s linear infinite}.p{animation:p 3s ease-in-out infinite}@keyframes d{to{stroke-dashoffset:-100}}@keyframes p{50%{opacity:1}}@media(prefers-reduced-motion:reduce){.d,.p{animation:none}}</style>
+  <path d="M0 17h410l18-12h344l18 12h410" fill="none" stroke="#00dbe7" stroke-opacity=".6" stroke-width="2" stroke-dasharray="5 8" class="d"/>
+  <circle class="p" cx="600" cy="17" r="5" fill="#34fc0d" opacity=".3"/>
+  <path d="M560 17h80" stroke="#b600f8" stroke-width="2"/>
+</svg>
