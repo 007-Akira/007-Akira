@@ -114,23 +114,17 @@ I’m currently designing practical intelligent systems, strengthening my AI fou
 ## `05 // GITHUB_TELEMETRY.dat`
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=007-Akira&show_icons=true&hide_border=true&bg_color=0d1515&title_color=00dbe7&icon_color=34fc0d&text_color=b9cacb&ring_color=b600f8" alt="Akira's GitHub statistics">
+  <img width="49%" src="./assets/github-telemetry.svg" alt="GitHub telemetry summary for Akira">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=007-Akira&hide_border=true&background=0D1515&ring=00DBE7&fire=B600F8&currStreakLabel=34FC0D&sideLabels=B9CACB&dates=849495&currStreakNum=E1FDFF&sideNums=E1FDFF" alt="Akira's GitHub contribution streak">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=007-Akira&layout=compact&hide_border=true&bg_color=0d1515&title_color=00dbe7&text_color=b9cacb" alt="Most used languages">
 </p>
 
 ## `06 // CONTRIBUTION_SIGNAL.svg`
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/007-Akira/007-Akira/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/007-Akira/007-Akira/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/007-Akira/007-Akira/output/github-contribution-grid-snake.svg" alt="Animated contribution graph snake">
-  </picture>
+  <img src="./assets/contribution-signal.svg" width="100%" alt="Animated contribution signal awaiting the generated GitHub contribution snake">
 </p>
+
+<!-- The workflow publishes light and dark contribution snakes to the output branch after its first successful run. -->
 
 ## `07 // CONNECT.sh`
 

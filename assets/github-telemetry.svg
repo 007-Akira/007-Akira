@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-labelledby="title desc">
+  <title id="title">Akira GitHub telemetry</title>
+  <desc id="desc">A local cyber-terminal card describing Akira's public development activity.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#173638" stroke-width="1"/></pattern>
+    <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.p{animation:p 3s ease-in-out infinite}@keyframes p{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.p{animation:none}}</style>
+  </defs>
+  <rect width="520" height="200" rx="12" fill="#0d1515"/>
+  <rect width="520" height="200" rx="12" fill="url(#grid)" opacity=".4"/>
+  <rect x="1" y="1" width="518" height="198" rx="11" fill="none" stroke="#3a494b"/>
+  <circle cx="22" cy="22" r="5" fill="#34fc0d" class="p"/>
+  <text x="38" y="28" fill="#00dbe7" font-size="14" font-weight="700">GITHUB_TELEMETRY // ONLINE</text>
+  <path d="M18 43H502" stroke="#253638"/>
+  <text x="24" y="76" fill="#849495" font-size="12">PRIMARY SIGNALS</text>
+  <text x="24" y="102" fill="#e1fdff" font-size="16">Python · TypeScript · JavaScript · Shell</text>
+  <text x="24" y="136" fill="#849495" font-size="12">BUILD CHANNELS</text>
+  <text x="24" y="162" fill="#b9cacb" font-size="15">AI / ML · full-stack · Linux · open source</text>
+  <path d="M24 180h120" stroke="#00dbe7" stroke-width="3"/><path d="M144 180h72" stroke="#b600f8" stroke-width="3"/><path d="M216 180h48" stroke="#34fc0d" stroke-width="3"/>
+</svg>

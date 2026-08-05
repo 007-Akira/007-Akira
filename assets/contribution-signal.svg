@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution signal</title>
+  <desc id="desc">An animated terminal activity grid used while the contribution snake is generated.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="20" height="20" x="4" y="4" rx="3" fill="#173638"/></pattern>
+    <linearGradient id="beam"><stop stop-color="#00dbe7" stop-opacity="0"/><stop offset=".5" stop-color="#00dbe7"/><stop offset="1" stop-color="#34fc0d" stop-opacity="0"/></linearGradient>
+    <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.b{animation:b 7s linear infinite}.p{animation:p 2.8s ease-in-out infinite}@keyframes b{from{transform:translateX(-300px)}to{transform:translateX(1300px)}}@keyframes p{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.b,.p{animation:none}}</style>
+  </defs>
+  <rect width="1200" height="190" rx="12" fill="#080f10"/><rect x="18" y="54" width="1164" height="112" fill="url(#grid)" opacity=".75"/>
+  <rect x="1" y="1" width="1198" height="188" rx="11" fill="none" stroke="#3a494b"/>
+  <circle cx="24" cy="25" r="5" fill="#34fc0d" class="p"/><text x="40" y="30" fill="#b9cacb" font-size="14">contribution_daemon // signal active</text>
+  <g class="b"><rect x="0" y="54" width="260" height="112" fill="url(#beam)" opacity=".35"/><path d="M0 110h70l15-25 20 50 20-38 16 13h119" fill="none" stroke="#00dbe7" stroke-width="3"/></g>
+  <text x="1172" y="30" text-anchor="end" fill="#849495" font-size="12">SNAKE BUILD: PENDING FIRST WORKFLOW RUN</text>
+</svg>
