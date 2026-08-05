@@ -121,10 +121,14 @@ I’m currently designing practical intelligent systems, strengthening my AI fou
 ## `06 // CONTRIBUTION_SIGNAL.svg`
 
 <p align="center">
-  <img src="./assets/contribution-signal.svg" width="100%" alt="Animated contribution signal awaiting the generated GitHub contribution snake">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/007-Akira/007-Akira/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/007-Akira/007-Akira/output/github-contribution-grid-snake.svg">
+    <img src="./assets/contribution-signal.svg" width="100%" alt="Animated GitHub contribution graph for Akira">
+  </picture>
 </p>
 
-<!-- The workflow publishes light and dark contribution snakes to the output branch after its first successful run. -->
+<!-- The local contribution signal remains as a fallback if the generated output branch is temporarily unavailable. -->
 
 ## `07 // CONNECT.sh`
 
