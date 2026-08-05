@@ -2,13 +2,9 @@
   <img src="./assets/hero-terminal.svg" width="100%" alt="Animated terminal banner for Adithya Kiran, also known as Akira">
 </p>
 
-```bash
-akira@tkm:~$ whoami
-Adithya Kiran — AI Developer & Full-Stack Explorer
-
-akira@tkm:~$ status
-Building intelligent systems, learning continuously, and exploring open source.
-```
+<p align="center">
+  <img src="./assets/content/terminal-intro.svg" width="100%" alt="Terminal introduction: Adithya Kiran, AI Developer and Full-Stack Explorer">
+</p>
 
 <p align="center">
   <img src="./assets/section-divider.svg" width="100%" alt="">
@@ -16,60 +12,21 @@ Building intelligent systems, learning continuously, and exploring open source.
 
 <p align="center"><img src="./assets/sections/about.svg" width="100%" alt="About section — terminal module 01"></p>
 
-I’m **Akira**, a Computer Science & Engineering student at **TKM College of Engineering**, graduating in **2028**. I like the point where AI research meets useful software: language systems, thoughtful interfaces, reliable APIs, and tools that solve real problems.
-
-```text
-┌─ profile.json ──────────────────────────────────────────────────────┐
-│ location  : Kerala, India                                          │
-│ signal    : artificial intelligence × full-stack engineering       │
-│ interests : NLP · LLMs · Linux · open source · practical systems   │
-│ protocol  : build → test → learn → refine                          │
-└────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="./assets/content/about-console.svg" width="100%" alt="About Akira: a CSE student at TKM College of Engineering graduating in 2028, interested in AI, full-stack systems, Linux, and open source">
+</p>
 
 <p align="center"><img src="./assets/sections/current-focus.svg" width="100%" alt="Current focus section — terminal module 02"></p>
 
 <p align="center">
-  <code>[ MACHINE LEARNING ]</code>&nbsp;
-  <code>[ DEEP LEARNING ]</code>&nbsp;
-  <code>[ NLP + LLMS ]</code>&nbsp;
-  <code>[ FULL-STACK ]</code>&nbsp;
-  <code>[ LINUX ]</code>&nbsp;
-  <code>[ OPEN SOURCE ]</code>
+  <img src="./assets/content/focus-matrix.svg" width="100%" alt="Current focus: machine learning, deep learning, NLP and LLMs, full-stack development, Linux, and open source">
 </p>
-
-I’m currently designing practical intelligent systems, strengthening my AI foundations, building responsive full-stack products, and learning in public through projects and experiments.
 
 <p align="center"><img src="./assets/sections/tech-stack.svg" width="100%" alt="Technology stack section — terminal module 03"></p>
 
-<table>
-  <tr>
-    <td><code>LANGUAGES</code></td>
-    <td>Python · TypeScript · JavaScript · HTML · CSS · Shell · Kotlin</td>
-  </tr>
-  <tr>
-    <td><code>FRONTEND</code></td>
-    <td>React · Next.js · React Native · Expo · Vite · Tailwind CSS</td>
-  </tr>
-  <tr>
-    <td><code>BACKEND</code></td>
-    <td>FastAPI · Node.js · REST APIs · Next.js server features</td>
-  </tr>
-  <tr>
-    <td><code>DATABASES</code></td>
-    <td>PostgreSQL · Supabase</td>
-  </tr>
-  <tr>
-    <td><code>AI / ML</code></td>
-    <td>PyTorch · scikit-learn · sentence embeddings · extractive summarization · speech recognition · text-to-speech · local LLMs</td>
-  </tr>
-  <tr>
-    <td><code>TOOLS</code></td>
-    <td>Git · GitHub · Linux · Docker · GitHub Actions · npm · pnpm · Vercel · ESLint</td>
-  </tr>
-</table>
-
-> Stack entries above are grounded in public repository manifests, source-language data, and project documentation.
+<p align="center">
+  <img src="./assets/content/stack-console.svg" width="100%" alt="Verified technology stack including Python, TypeScript, React, Next.js, FastAPI, PostgreSQL, Supabase, PyTorch, Linux, and Docker">
+</p>
 
 <p align="center">
   <img src="./assets/section-divider.svg" width="100%" alt="">
@@ -77,39 +34,17 @@ I’m currently designing practical intelligent systems, strengthening my AI fou
 
 <p align="center"><img src="./assets/sections/projects.svg" width="100%" alt="Featured projects section — terminal module 04"></p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/007-Akira/cinevote">CineVote</a></h3>
-      <p>A mobile-first movie polling and screening-ticket app for college events, with live results, organizer controls, and QR-coded passes.</p>
-      <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Tailwind CSS</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/007-Akira/malayalam-extractive-summarizer">Malayalam Extractive Summarizer</a></h3>
-      <p>A Malayalam summarization system that ranks source sentences using multilingual embeddings, trained classifiers, and redundancy-aware selection.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>PyTorch</code> <code>React</code> <code>Vite</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/007-Akira/Haajar">Haajar</a></h3>
-      <p>A QR-based group attendance and roll-call mobile app with role-based access, multi-group support, notifications, and offline-sync fallback.</p>
-      <p><code>React Native</code> <code>Expo</code> <code>TypeScript</code> <code>Supabase</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/007-Akira/Project-Rocky">Project Rocky</a></h3>
-      <p>An offline, voice-activated Linux desktop assistant with local speech recognition, text-to-speech, conversational memory, and application launching.</p>
-      <p><code>Python</code> <code>Shell</code> <code>local LLM</code> <code>speech</code> <code>Linux</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3><a href="https://github.com/007-Akira/linux-face-unlock-hp-gdm-howdy">Linux Face Unlock · HP / GDM / Howdy</a></h3>
-      <p>A concise, safety-minded setup guide and Shell configuration for face unlock on Ubuntu/GDM with password fallback.</p>
-      <p><code>Shell</code> <code>Linux</code> <code>GDM</code></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/content/project-archive.svg" width="100%" alt="Featured project archive: CineVote, Malayalam Extractive Summarizer, Haajar, Project Rocky, and Linux Face Unlock">
+</p>
+
+<p align="center">
+  <a href="https://github.com/007-Akira/cinevote"><img src="https://img.shields.io/badge/OPEN-CINEVOTE-0d1515?style=for-the-badge&logo=github&logoColor=00dbe7" alt="Open CineVote"></a>
+  <a href="https://github.com/007-Akira/malayalam-extractive-summarizer"><img src="https://img.shields.io/badge/OPEN-SUMMARIZER-0d1515?style=for-the-badge&logo=github&logoColor=b600f8" alt="Open Malayalam Extractive Summarizer"></a>
+  <a href="https://github.com/007-Akira/Haajar"><img src="https://img.shields.io/badge/OPEN-HAAJAR-0d1515?style=for-the-badge&logo=github&logoColor=34fc0d" alt="Open Haajar"></a>
+  <a href="https://github.com/007-Akira/Project-Rocky"><img src="https://img.shields.io/badge/OPEN-ROCKY-0d1515?style=for-the-badge&logo=github&logoColor=00dbe7" alt="Open Project Rocky"></a>
+  <a href="https://github.com/007-Akira/linux-face-unlock-hp-gdm-howdy"><img src="https://img.shields.io/badge/OPEN-FACE_UNLOCK-0d1515?style=for-the-badge&logo=github&logoColor=b600f8" alt="Open Linux Face Unlock"></a>
+</p>
 
 <p align="center"><img src="./assets/sections/telemetry.svg" width="100%" alt="GitHub telemetry section — terminal module 05"></p>
 
