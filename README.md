@@ -49,7 +49,7 @@
 <p align="center"><img src="./assets/sections/telemetry.svg" width="100%" alt="GitHub telemetry section — terminal module 05"></p>
 
 <p align="center">
-  <img width="49%" src="./assets/github-telemetry.svg" alt="GitHub telemetry summary for Akira">
+  <img width="49%" src="./assets/github-telemetry.svg" alt="Automatically refreshed GitHub telemetry for Akira, including total stars gained">
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=007-Akira&hide_border=true&background=0D1515&ring=00DBE7&fire=B600F8&currStreakLabel=34FC0D&sideLabels=B9CACB&dates=849495&currStreakNum=E1FDFF&sideNums=E1FDFF" alt="Akira's GitHub contribution streak">
 </p>
 

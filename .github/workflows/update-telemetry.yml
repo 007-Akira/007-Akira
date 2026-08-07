@@ -1,0 +1,43 @@
+name: Update GitHub telemetry
+
+on:
+  schedule:
+    - cron: "37 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/update_telemetry.py
+      - .github/workflows/update-telemetry.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate telemetry card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_telemetry.py
+
+      - name: Commit updated telemetry
+        run: |
+          if git diff --quiet -- assets/github-telemetry.svg; then
+            echo "Telemetry is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-telemetry.svg
+          git commit -m "chore: refresh GitHub telemetry"
+          git push
