@@ -3,7 +3,9 @@
   <desc id="desc">Current contribution streak of 9 days and 334 total contributions in the last year.</desc>
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#173638"/></pattern>
-    <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.p{animation:p 3s ease-in-out infinite}@keyframes p{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.p{animation:none}}</style>
+    <radialGradient id="fire-glow"><stop stop-color="#ffb000" stop-opacity=".28"/><stop offset="1" stop-color="#ff5a00" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fire" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#b600f8"/><stop offset=".48" stop-color="#ff5a00"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+    <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.p{animation:p 3s ease-in-out infinite}.f{animation:f 1.8s ease-in-out infinite;transform-origin:130px 110px}@keyframes p{50%{opacity:.35}}@keyframes f{50%{transform:scale(1.04);opacity:.82}}@media(prefers-reduced-motion:reduce){.p,.f{animation:none}}</style>
   </defs>
   <rect width="520" height="200" rx="12" fill="#0d1515"/>
   <rect width="520" height="200" rx="12" fill="url(#grid)" opacity=".4"/>
@@ -12,6 +14,11 @@
   <text x="38" y="28" fill="#00dbe7" font-size="14" font-weight="700">CONTRIBUTION_STREAK.dat // ONLINE</text>
   <path d="M18 43H502" stroke="#253638"/>
   <text x="130" y="68" text-anchor="middle" fill="#849495" font-size="11">CURRENT STREAK</text>
+  <circle cx="130" cy="108" r="53" fill="url(#fire-glow)" class="f"/>
+  <path d="M83 108c-9-13 1-24 9-30-1 8 4 12 8 8 5-5 1-13 9-22 1 10 13 13 13 26 0 14-10 25-23 25-7 0-12-2-16-7z" fill="url(#fire)" opacity=".92" class="f"/>
+  <path d="M177 108c9-13-1-24-9-30 1 8-4 12-8 8-5-5-1-13-9-22-1 10-13 13-13 26 0 14 10 25 23 25 7 0 12-2 16-7z" fill="url(#fire)" opacity=".92" class="f"/>
+  <circle cx="76" cy="72" r="2.5" fill="#ffd166" class="p"/><circle cx="184" cy="78" r="2" fill="#ff5a00" class="p"/>
+  <circle cx="130" cy="108" r="38" fill="#0d1515" stroke="url(#fire)" stroke-width="2"/>
   <text x="130" y="119" text-anchor="middle" fill="#e1fdff" font-size="42" font-weight="700">9</text>
   <text x="130" y="140" text-anchor="middle" fill="#34fc0d" font-size="11">DAYS</text>
   <path d="M260 59V153" stroke="#253638"/>
