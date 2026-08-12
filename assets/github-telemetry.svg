@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-labelledby="title desc">
   <title id="title">007-Akira GitHub telemetry</title>
-  <desc id="desc">Live GitHub statistics including 55 total stars gained across source repositories.</desc>
+  <desc id="desc">Live GitHub statistics including 57 total stars gained across source repositories.</desc>
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#173638"/></pattern>
     <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.p{animation:p 3s ease-in-out infinite}@keyframes p{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.p{animation:none}}</style>
@@ -12,7 +12,7 @@
   <text x="38" y="28" fill="#00dbe7" font-size="14" font-weight="700">GITHUB_TELEMETRY.dat // ONLINE</text>
   <path d="M18 43H502" stroke="#253638"/>
   <text x="24" y="62" fill="#849495" font-size="10">PUBLIC REPOSITORY SIGNALS // AUTO-REFRESHED DAILY</text>
-  <text x="24" y="91" fill="#ffd166" font-size="27" font-weight="700">55</text><text x="24" y="112" fill="#849495" font-size="9">TOTAL STARS GAINED</text><text x="146" y="91" fill="#00dbe7" font-size="27" font-weight="700">19</text><text x="146" y="112" fill="#849495" font-size="9">PUBLIC REPOSITORIES</text><text x="268" y="91" fill="#b600f8" font-size="27" font-weight="700">1</text><text x="268" y="112" fill="#849495" font-size="9">REPOSITORY FORKS</text><text x="390" y="91" fill="#34fc0d" font-size="27" font-weight="700">12</text><text x="390" y="112" fill="#849495" font-size="9">FOLLOWERS</text>
+  <text x="24" y="91" fill="#ffd166" font-size="27" font-weight="700">57</text><text x="24" y="112" fill="#849495" font-size="9">TOTAL STARS GAINED</text><text x="146" y="91" fill="#00dbe7" font-size="27" font-weight="700">19</text><text x="146" y="112" fill="#849495" font-size="9">PUBLIC REPOSITORIES</text><text x="268" y="91" fill="#b600f8" font-size="27" font-weight="700">1</text><text x="268" y="112" fill="#849495" font-size="9">REPOSITORY FORKS</text><text x="390" y="91" fill="#34fc0d" font-size="27" font-weight="700">14</text><text x="390" y="112" fill="#849495" font-size="9">FOLLOWERS</text>
   <path d="M24 132H496" stroke="#253638"/>
   <text x="24" y="155" fill="#849495" font-size="10">UPLINK</text>
   <text x="24" y="178" fill="#e1fdff" font-size="15">github.com/007-Akira</text>
